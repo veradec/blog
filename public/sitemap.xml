@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://veradec.xyz/</loc>
+    </url>
+    <url>
+        <loc>https://veradec.xyz/about/</loc>
+        <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+        <loc>https://veradec.xyz/authors/</loc>
+    </url>
+    <url>
+        <loc>https://veradec.xyz/authors/venkata-rao-dechiraju/</loc>
+    </url>
+    <url>
+        <loc>https://veradec.xyz/categories/</loc>
+    </url>
+    <url>
+        <loc>https://veradec.xyz/categories/quality-of-life/</loc>
+    </url>
+    <url>
+        <loc>https://veradec.xyz/posts/</loc>
+    </url>
+    <url>
+        <loc>https://veradec.xyz/posts/drum-sequencer/</loc>
+        <lastmod>2026-05-27</lastmod>
+    </url>
+    <url>
+        <loc>https://veradec.xyz/posts/hello/</loc>
+        <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+        <loc>https://veradec.xyz/tags/</loc>
+    </url>
+</urlset>

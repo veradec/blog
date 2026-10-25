@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Venkata Rao Dechiraju</title>
+    <subtitle>made by a actual human</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://veradec.xyz/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://veradec.xyz/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-05-27T00:00:00+00:00</updated>
+    <id>https://veradec.xyz/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Making a Drum Sequencer</title>
+        <published>2026-05-27T00:00:00+00:00</published>
+        <updated>2026-05-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://veradec.xyz/posts/drum-sequencer/"/>
+        <id>https://veradec.xyz/posts/drum-sequencer/</id>
+        
+        <content type="html" xml:base="https://veradec.xyz/posts/drum-sequencer/">&lt;p&gt;I always looked at Teenage Engineering and thought it was pretty cool and given I have a sem break right now, I thought I can make one too. shouldn’t be hard right?&lt;br &#x2F;&gt;
+and after i started composing music, Techno was a genre I always wanted to try but i couldn’t, and then an idea popped up, maybe I can create a suite of instruments&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;a Synth&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;a Drum Sequencer&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;a Vocoder&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;and start making techno on them? Sounds nice innit?&lt;br &#x2F;&gt;
+&lt;br&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;the-design&quot;&gt;The Design&lt;&#x2F;h1&gt;
+&lt;p&gt;I wanted the design to look a little retro 80’s esque, and I wanted it to be little simpler (because I will have suite of appliances to generate different sounds, so would rather have one that is simple and does it job well)
+and I drew a few sketches and ended with something that looks very nice&lt;&#x2F;p&gt;
+&lt;div style=&quot;display: flex; justify-content: center;&quot;&gt;
+  &lt;img src=&quot;&#x2F;dq_sketch.png&quot; alt=&quot;Drum Sequencer Rough Sketch&quot; style=&quot;transform: rotate(-90deg); width: 50%;&quot; &#x2F;&gt;
+&lt;&#x2F;div&gt;
+&lt;h1 id=&quot;the-prototyping&quot;&gt;The Prototyping&lt;&#x2F;h1&gt;
+&lt;p&gt;with the &lt;em&gt;beautifully&lt;&#x2F;em&gt; crafted picture in hand, now the plan is to prototype&lt;&#x2F;p&gt;
+&lt;p&gt;I needed around 16 Buttons – which I am going to pull of some keyboards i archived (They paid off innit?).&lt;&#x2F;p&gt;
+&lt;p&gt;I might need to get some more potentiometers and find a way to make a matrix the LEDs and Buttons, Once That is done, Getting the whole thing shouldn’t be that tough (atleast I hope it isn’t)&lt;&#x2F;p&gt;
+&lt;!-- -- 28 May 02:00 AM   --&gt;
+&lt;!-- I am about to order stuff from flyrobo and i found this website called [ifuturetech](https:&#x2F;&#x2F;ifuturetech.org) which i am really unsure is legitimate, but yes. I might order from it, the total cost excluding the MicroProcessor and the Speaker (which i might borrow from a friend for prototyping) come around to 616.   --&gt;
+&lt;!-- Including the speaker and the MCU let&#x27;s call it a even 900? and then the chassis -- with a good cnc machine and alumium -- would roll everything up to a nice 1500 - 1700? That still is cheaper than Teenage Engineering or any SOTA, selling it for around 2400-2500 should make up some good profit. this is getting exciting.   --&gt;
+&lt;!-- I look forward to any outliers that would increase the cost by 10x -- i don&#x27;t see a reason something like this would but yes. --&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>About verade</title>
+        <published>2026-05-24T00:00:00+00:00</published>
+        <updated>2026-05-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://veradec.xyz/about/"/>
+        <id>https://veradec.xyz/about/</id>
+        
+        <content type="html" xml:base="https://veradec.xyz/about/">&lt;p&gt;I am Venkata Rao Dechiraju, A Low-Level Perfomance Developer based off 🇮🇳, I heavily fw Compilers, Motorsports and Low Level Programming.&lt;&#x2F;p&gt;
+&lt;p&gt;You can find all the weird stuff i do on &lt;a rel=&quot;noopener nofollow noreferrer external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;veradec&#x2F;&quot;&gt;my github&lt;&#x2F;a&gt; (Even though I am trying to move to something like codeberg)&lt;&#x2F;p&gt;
+&lt;p&gt;I hope you find yourself intriguied after reading through my posts – that’s the intention of the whole website.&lt;&#x2F;p&gt;
+&lt;p&gt;(Just because I use em-dashes doesn’t mean it wasn’t written by LLMs, I find the concept of em-dashes rather convenient, and I find myself at positions against LLMs for menial tasks such as writing blog posts, so cheers!)&lt;&#x2F;p&gt;
+&lt;p&gt;Contact:&lt;&#x2F;p&gt;
+&lt;p&gt;Mail -&amp;gt; venkatraodechiraju@gmail.com&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hello, World</title>
+        <published>2026-05-24T00:00:00+00:00</published>
+        <updated>2026-05-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://veradec.xyz/posts/hello/"/>
+        <id>https://veradec.xyz/posts/hello/</id>
+        
+        <content type="html" xml:base="https://veradec.xyz/posts/hello/">&lt;p&gt;a (hopefully) final revamp of the website, given it’s not very ugly to look at now, maybe i’ll start writing more here? i ain’t sure about that and yes, i’ll be copying all the content from the previous website here, so i’ll not lose what was&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

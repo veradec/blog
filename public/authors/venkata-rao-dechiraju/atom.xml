@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Venkata Rao Dechiraju - Venkata Rao Dechiraju</title>
+    <subtitle>made by a actual human</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://veradec.xyz/authors/venkata-rao-dechiraju/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://veradec.xyz/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-05-24T00:00:00+00:00</updated>
+    <id>https://veradec.xyz/authors/venkata-rao-dechiraju/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Hello, World</title>
+        <published>2026-05-24T00:00:00+00:00</published>
+        <updated>2026-05-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://veradec.xyz/posts/hello/"/>
+        <id>https://veradec.xyz/posts/hello/</id>
+        
+        <content type="html" xml:base="https://veradec.xyz/posts/hello/">&lt;p&gt;a (hopefully) final revamp of the website, given it’s not very ugly to look at now, maybe i’ll start writing more here? i ain’t sure about that and yes, i’ll be copying all the content from the previous website here, so i’ll not lose what was&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

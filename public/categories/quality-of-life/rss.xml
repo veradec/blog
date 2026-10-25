@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Venkata Rao Dechiraju - quality of life</title>
+      <link>https://veradec.xyz/</link>
+      <description>made by a actual human</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://veradec.xyz/categories/quality-of-life/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Hello, World</title>
+          <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://veradec.xyz/posts/hello/</link>
+          <guid>https://veradec.xyz/posts/hello/</guid>
+          <description xml:base="https://veradec.xyz/posts/hello/">&lt;p&gt;a (hopefully) final revamp of the website, given it’s not very ugly to look at now, maybe i’ll start writing more here? i ain’t sure about that and yes, i’ll be copying all the content from the previous website here, so i’ll not lose what was&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

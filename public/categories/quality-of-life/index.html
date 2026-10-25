@@ -1,0 +1,265 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta content="width=device-width,initial-scale=1.0" name=viewport><title>
+quality of life - Categories - Venkata Rao Dechiraju
+</title><meta content="made by a actual human" name=description><link href=https://veradec.xyz/categories/quality-of-life/ rel=canonical><link href=https://veradec.xyz/favicon/favicon.ico rel=icon type=image/x-icon><link href=https://veradec.xyz/favicon/favicon-16x16.png rel=icon sizes=16x16 type=image/png><link href=https://veradec.xyz/favicon/favicon-32x32.png rel=icon sizes=32x32 type=image/png><link href=https://veradec.xyz/favicon/apple-touch-icon.png rel=apple-touch-icon sizes=180x180><link href=https://veradec.xyz/favicon/site.webmanifest rel=manifest><link as=style href=https://veradec.xyz/style.css rel=preload><link href=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css rel=stylesheet><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js></script><script onload="renderMathInElement(document.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false}
+        ]
+      });" defer src=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js></script><meta content="blog, tech, programming" name=keywords><meta content="Venkata Rao Dechiraju" name=author><meta content="index, follow" name=robots><meta content=#1e3a8a name=theme-color><meta content=website property=og:type><meta content=https://veradec.xyz/categories/quality-of-life/ property=og:url><meta content="Venkata Rao Dechiraju" property=og:title><meta content="made by a actual human" property=og:description><meta content="Venkata Rao Dechiraju" property=og:site_name><meta content=https://veradec.xyz/static/banner.png property=og:image><meta content=summary_large_image name=twitter:card><meta content="Venkata Rao Dechiraju" name=twitter:title><meta content="made by a actual human" name=twitter:description><meta content=https://veradec.xyz/static/banner.png name=twitter:image><script type=application/ld+json>
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Venkata Rao Dechiraju",
+      "url": "https:&#x2F;&#x2F;veradec.xyz&#x2F;",
+      "description": "made by a actual human"
+      
+      ,"author": {
+        "@type": "Person",
+        "name": "Venkata Rao Dechiraju"
+        
+        ,"url": "https:&#x2F;&#x2F;verade.xyz"
+        
+      }
+      
+    }
+    </script><link title="atom feed for Venkata Rao Dechiraju" href=https://veradec.xyz/atom.xml rel=alternate type=application/atom+xml><link title="rss feed for Venkata Rao Dechiraju" href=https://veradec.xyz/rss.xml rel=alternate type=application/rss+xml><link href=https://veradec.xyz/style.css rel=stylesheet><body><div class=background-container><img alt class=background-image src=Raja_Ravi_Varma,_Sakunthala_Pathralekhan.jpg></div><div aria-label="Reading progress" class=reading-progress id=reading-progress role=progressbar></div><a class=skip-to-content href=#content>skip to content</a><div class=wrap><header><a href=https://veradec.xyz/ id=home-link> <span aria-hidden=true id=back-icon> <svg viewbox="0 0 24 24" fill=none stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2><polyline points="15 18 9 12 15 6"></polyline></svg> </span> <span id=back-text>back</span> </a></header><div id=content><div class=hero><h1>quality of life</h1><p class=hero-description>1 Post In Categories</div><div class=post-grid><a class=card href=https://veradec.xyz/posts/hello/> <h3>Hello, World</h3> <p>a (hopefully) final revamp of the website, given it’s not very ugly to look at now, maybe i’ll start writing more here? i ain’t sure about that and ye…</p> <div class=meta><span> Sun May 24, 2026 </span><span>1 min read</span></div> </a></div></div><div class=bottom-menu><p><a href=/posts>posts</a> <a href=/about>about</a> <a href=https://github.com/veradec>github</a> <a href=/authors>authors</a> <a href=/tags>tags</a> <a href=/categories>categories</a></div><button aria-label="Scroll to top" id=scroll-to-top><svg viewbox="0 0 24 24" aria-hidden=true fill=none stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2><polyline points="18 15 12 9 6 15"></polyline></svg></button><footer><div class=sam-footer>Built using Zola & Prism theme</div></footer></div><script>'use strict';
+
+(function() {
+    const SVG_ICONS = {
+        copy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>',
+        check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>',
+        error: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>'
+    };
+
+    function debounce(func, wait) {
+        let timeout;
+        return function executedFunction(...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func(...args), wait);
+        };
+    }
+
+    function initNavigation() {
+        try {
+            const homeLink = document.getElementById('home-link');
+            const backIcon = document.getElementById('back-icon');
+            const backText = document.getElementById('back-text');
+            
+            if (!homeLink) return;
+            
+            const homeText = 'back';
+            const isHomePage = window.location.pathname === '/' || window.location.pathname === '/index.html';
+            
+            if (backIcon && isHomePage) {
+                backIcon.style.display = 'none';
+            }
+            
+            if (backText) {
+                backText.textContent = homeText;
+            }
+            
+            homeLink.setAttribute('aria-label', `Go to ${homeText.toLowerCase()} page`);
+        } catch (error) {
+            console.error('Navigation init failed:', error);
+        }
+    }
+
+    function initScrollToTop() {
+        try {
+            const scrollToTopBtn = document.getElementById('scroll-to-top');
+            if (!scrollToTopBtn) return;
+            
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            
+            const toggleVisibility = debounce(() => {
+                if (window.scrollY > 300) {
+                    scrollToTopBtn.classList.add('visible');
+                } else {
+                    scrollToTopBtn.classList.remove('visible');
+                }
+            }, 100);
+            
+            window.addEventListener('scroll', toggleVisibility, { passive: true });
+            toggleVisibility();
+            
+            scrollToTopBtn.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: prefersReducedMotion ? 'auto' : 'smooth'
+                });
+            });
+        } catch (error) {
+            console.error('Scroll to top init failed:', error);
+        }
+    }
+
+    
+    function initCopyCodeButtons() {
+        try {
+            const codeBlocks = document.querySelectorAll('pre code');
+            
+            codeBlocks.forEach((codeBlock) => {
+                const pre = codeBlock.parentElement;
+                
+                const wrapper = document.createElement('div');
+                wrapper.className = 'code-block-wrapper';
+                pre.parentNode.insertBefore(wrapper, pre);
+                wrapper.appendChild(pre);
+                
+                const copyButton = document.createElement('button');
+                copyButton.className = 'copy-code-button';
+                copyButton.innerHTML = SVG_ICONS.copy;
+                copyButton.setAttribute('aria-label', 'Copy code to clipboard');
+                copyButton.setAttribute('title', 'Copy code');
+                
+                wrapper.appendChild(copyButton);
+                
+                copyButton.addEventListener('click', async () => {
+                    const code = codeBlock.textContent;
+                    
+                    try {
+                        if (navigator.clipboard && window.isSecureContext) {
+                            await navigator.clipboard.writeText(code);
+                        } else {
+                            const textArea = document.createElement('textarea');
+                            textArea.value = code;
+                            textArea.style.position = 'fixed';
+                            textArea.style.left = '-999999px';
+                            document.body.appendChild(textArea);
+                            textArea.select();
+                            document.execCommand('copy');
+                            document.body.removeChild(textArea);
+                        }
+                        
+                        copyButton.innerHTML = SVG_ICONS.check;
+                        copyButton.classList.add('copied');
+                        copyButton.setAttribute('aria-label', 'Code copied');
+                        
+                        setTimeout(() => {
+                            copyButton.innerHTML = SVG_ICONS.copy;
+                            copyButton.classList.remove('copied');
+                            copyButton.setAttribute('aria-label', 'Copy code to clipboard');
+                        }, 2000);
+                    } catch (err) {
+                        console.error('Failed to copy code:', err);
+                        
+                        copyButton.innerHTML = SVG_ICONS.error;
+                        copyButton.classList.add('error');
+                        copyButton.setAttribute('aria-label', 'Copy failed');
+                        
+                        setTimeout(() => {
+                            copyButton.innerHTML = SVG_ICONS.copy;
+                            copyButton.classList.remove('error');
+                            copyButton.setAttribute('aria-label', 'Copy code to clipboard');
+                        }, 2000);
+                    }
+                });
+            });
+        } catch (error) {
+            console.error('Copy code buttons init failed:', error);
+        }
+    }
+    
+
+    
+    function initSmoothScroll() {
+        try {
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            if (prefersReducedMotion) return;
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const href = this.getAttribute('href');
+                    if (href === '#' || href.length <= 1) return;
+                    
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    
+                    if (target) {
+                        const offset = 80;
+                        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                        
+                        if (window.history.pushState) {
+                            window.history.pushState(null, null, href);
+                        }
+                        
+                        if (!target.hasAttribute('tabindex')) {
+                            target.setAttribute('tabindex', '-1');
+                        }
+                        target.focus({ preventScroll: true });
+                    }
+                });
+            });
+        } catch (error) {
+            console.error('Smooth scroll init failed:', error);
+        }
+    }
+    
+
+    
+    function initReadingProgress() {
+        try {
+            const progressBar = document.getElementById('reading-progress');
+            if (!progressBar) return;
+            
+            const updateProgressBar = debounce(() => {
+                const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+                progressBar.style.width = scrolled + '%';
+            }, 16);
+            
+            window.addEventListener('scroll', updateProgressBar, { passive: true });
+            updateProgressBar();
+        } catch (error) {
+            console.error('Reading progress init failed:', error);
+        }
+    }
+    
+
+    function initPageLoadingState() {
+        try {
+            document.addEventListener('click', (e) => {
+                const link = e.target.closest('a[href^="/"], a[href^="https:&#x2F;&#x2F;veradec.xyz&#x2F;"]');
+                if (link && !link.target && !link.getAttribute('download')) {
+                    document.body.classList.add('page-loading');
+                }
+            });
+            
+            window.addEventListener('pageshow', () => {
+                document.body.classList.remove('page-loading');
+            });
+        } catch (error) {
+            console.error('Page loading state init failed:', error);
+        }
+    }
+
+    function init() {
+        initNavigation();
+        initScrollToTop();
+        initPageLoadingState();
+        
+        
+        initCopyCodeButtons();
+        
+        
+        
+        initSmoothScroll();
+        
+        
+        
+        initReadingProgress();
+        
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();</script>
